@@ -5,8 +5,8 @@ import { useFetch } from '../../hooks/useFetch'
 // eslint-disable-next-line react/prop-types
 const RegisterTable = () => {
 
-const { data, loading, error } =  useFetch('http://localhost:3000/horas')
-console.log(loading)
+const { data, loading, error } =  useFetch('https://backend-cemeza1.vercel.app/horas')
+
 
   return (
     <Box>

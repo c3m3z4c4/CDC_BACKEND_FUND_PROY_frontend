@@ -15,7 +15,7 @@ const AddressHeader = () => {
   
   const { data, loading, error } =  useFetch('https://api.ipbase.com/v1/json/')
 
-  useSendInfo('http://localhost:3000/nueva-hora', fechaRegistro, data.latitude, data.longitude, data.ip, data.city)
+  useSendInfo('https://backend-cemeza1.vercel.app/nueva-hora', fechaRegistro, data.latitude, data.longitude, data.ip, data.city)
 
 
 
